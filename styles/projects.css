@@ -1,0 +1,38 @@
+.nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-link:hover,.nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+ 
+ 
+ .card-img {
+    transition: all 1s ease;
+    -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+    filter: blur(0px);
+}
+
+.card:hover > *:not(.card-img-overlay) {
+    transition: all 1s ease;
+    -webkit-filter: blur(15px); /* Chrome, Safari, Opera */
+    filter: blur(15px);
+}
+
+
+.card-img-overlay {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.card:hover .card-img-overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
