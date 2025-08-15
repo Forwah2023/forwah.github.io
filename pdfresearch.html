@@ -13,7 +13,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Original base.html stylesheet -->
-    <link href="./styles/dash/base.css" rel="stylesheet">
+    <link href="./styles/projects.css" rel="stylesheet">
+    <link href="./styles/profile.css" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -51,13 +52,34 @@
         <div class="container py-5">
 
             <!-- Page Header -->
-            <div class="text-center mb-5">
+            <div class="text-center mb-1">
                 <h1 class="display-4">PdfResearch</h1>
                 <p class="lead header_text">
                     A fast text-folder search desktop app supporting multiple keywords across PDF, DOC, and TXT files.
                 </p>
             </div>
-
+<!-- About Section -->
+<section class="mb-2">
+    <h3>About</h3>
+    <p>
+    PdfResearch is a multi-threaded desktop application that performs fast, multi-keyword searches for text patterns across
+    folders
+    containing .pdf, .doc, and .txt files. The inspiration for this app resulted from a shortage of free software capable of
+    performing multi-keyword searches on desktop folders. Traditional desktop applications in this category only allow users
+    to search for one keyword at a time. Furthermore, they were not as fast as I needed them to be. This app leverages
+    some of the fastest text-extracting Python-based packages available online to build a free app that competes with paid
+    online versions.
+    </p>
+</section>
+            <!-- Action Buttons -->
+            <div class="d-flex justify-content-center mb-5">
+                <a href="https://sourceforge.net/projects/pdfresearch/" class="btn btn-primary me-3" target="_blank">
+                    Download App
+                </a>
+                <a href="https://github.com/Forwah2023/PdfResearch" class="btn btn-primary" target="_blank">
+                    View Source Code
+                </a>
+            </div>
             <!-- Embedded YouTube Video -->
             <div class="ratio ratio-16x9 shadow-sm rounded mb-5">
                 <iframe src="https://www.youtube.com/embed/aK0vdB_Woeo?si=8uoE0DE2YSR8zAyV" title="PdfResearch demo"
@@ -66,25 +88,6 @@
                     allowfullscreen>
                 </iframe>
             </div>
-
-            <!-- Action Buttons -->
-            <div class="d-flex justify-content-center mb-5">
-                <a href="https://sourceforge.net/projects/pdfresearch/" class="btn btn-primary me-3" target="_blank">
-                    Download App
-                </a>
-                <a href="https://github.com/Forwah2023/PdfResearch" class="btn btn-secondary" target="_blank">
-                    View Source Code
-                </a>
-            </div>
-
-            <!-- About Section -->
-            <section class="mb-5">
-                <h3>About</h3>
-                <p>
-                    PdfResearch is a desktop application that performs fast text-folder searches
-                    supporting multiple keyword queries across PDF, DOC, and TXT files.
-                </p>
-            </section>
 
         </div>
     </main>

@@ -13,7 +13,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Original base.html stylesheet -->
-    <link href="./styles/dash/base.css" rel="stylesheet">
+    <link href="./styles/projects.css" rel="stylesheet">
+    <link href="./styles/profile.css" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -49,15 +50,33 @@
     <!-- Main Content -->
     <main class="flex-grow-1">
         <div class="container py-5">
-
             <!-- Page Header -->
-            <div class="text-center mb-5">
+            <div class="text-center mb-1">
                 <h1 class="display-4">Wordle Clone</h1>
                 <p class="lead header_text">
                     A PyQt5 implementation of the famous Wordle game, offering unlimited daily plays.
                 </p>
             </div>
-
+            <!-- About Section -->
+            <section class="mb-2">
+                <h3>About</h3>
+                <p>
+                    This Wordle Clone reproduces the New York Times’ popular word puzzle using PyQt5. While I enjoyed playing
+                    the official game for months, I didn't always have internet access to access the online game. So, I decided
+                    to code a desktop version of the game using the tools I already mastered, Python and PyQt, which led to this
+                    app.
+                    This version removes the daily limit of playable games present in the official game, allowing infinite play
+                    sessions for
+                    continuous
+                    practice and fun. Additionally, this version is compatible with Windows desktops.
+                </p>
+            </section>
+                        <!-- Action Button -->
+                        <div class="d-flex justify-content-center mb-5">
+                            <a href="https://github.com/Forwah2023/WordleClone-Unlimited" class="btn btn-primary" target="_blank">
+                                View Source Code
+                            </a>
+                        </div>
             <!-- Embedded YouTube Demo -->
             <div class="ratio ratio-16x9 shadow-sm rounded mb-5">
                 <iframe src="https://www.youtube.com/embed/jwcEz59D5gQ?si=JixPDeZd4qK-kphE" title="Wordle Clone demo"
@@ -66,23 +85,6 @@
                     allowfullscreen>
                 </iframe>
             </div>
-
-            <!-- Action Button -->
-            <div class="d-flex justify-content-center mb-5">
-                <a href="https://github.com/Forwah2023/WordleClone-Unlimited" class="btn btn-secondary" target="_blank">
-                    View Source Code
-                </a>
-            </div>
-
-            <!-- About Section -->
-            <section class="mb-5">
-                <h3>About</h3>
-                <p>
-                    This Wordle Clone reproduces the New York Times’ popular word puzzle using PyQt5.
-                    It removes the daily limit, allowing infinite play sessions for continuous
-                    practice and fun.
-                </p>
-            </section>
 
         </div>
     </main>
